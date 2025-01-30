@@ -1,0 +1,95 @@
+
+/*Jag la till en bakgrundsfärg i headern med
+en tunn ram runtomkring. Jag centrerade även
+texten.*/
+
+header{
+    border: 1px solid green;
+    text-align: center;
+    background-color: #6A9C89;
+}
+
+/*Bakgrunden på bodyn fick en annan färg.*/
+
+body{
+    background-color: #C4DAD2;
+}
+
+h1{
+    font-style: italic;
+}
+
+/*Jag placerade "boxen" centralt på sidan med
+hjälp av "margin" (och 150px från toppen av
+sidan). Jag justerade "paddingen" så att
+formuläret skulle passa bra innanför den.
+Jag centrerade innehållet i boxen med "text-
+align".*/
+
+.box{
+    border: 4px solid #6A9C89;
+    border-radius: 10px;
+    width: 240px;
+    padding: 85px;
+    margin:100px auto 0 auto;
+    background-color: #C4DAD2;
+    text-align: center;
+}
+
+/*Jag ville att boxens input skulle hamna lite
+längre ner i boxen, och skrev därför nedanstående
+kod. */
+
+.box input{
+    margin: 12px 0;
+}
+
+/*Jag stajlade input-fälten litegrann. Jag gjorde
+dom större och förstorade texten. Jag la till lite 
+"luft" (padding) i fälten, och la till en tunn svart
+ram runtomkring. */
+
+input[type=email]{
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+input[type=password]{
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    margin: 20px 0 15px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+/*Jag ändrade färgen i checkboxrutan (när den är
+i-checkad) för att matcha resten av sidan. */
+
+input[type=checkbox]{
+    accent-color: #6A9C89;
+}
+
+/*Jag förstorade knapparna med width och height.
+Jag la till margins för att få mer luft ovanför
+och på sidan av knapparna. */
+
+button {
+        width: 95px;
+        height: 25px;
+        margin: 15px 10px;
+        background-color: white;
+        color: black;
+}
+
+/*Jag la till nedanstående effekt på knapparna.
+(Dom ändrar färg när musmarkören förs över dom.) */
+    
+button:hover {
+        background-color: #E9EFEC;
+}
